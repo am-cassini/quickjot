@@ -14,15 +14,15 @@ app.use(express.static('public'));
 
 // Database configuration
 const pool = new Pool({
-  host: 'localhost',
-  port: 5432,
-  database: 'note_taking_app',
-  user: 'postgres',
-  password: 'postgres',
+connectionString: process.env.DATABASE_URL,
+ssl: {
+  rejectUnauthorized: false, 
+  },
 });
 
-// JWT secret (in production, use environment variable)
-const JWT_SECRET = 'your-super-secret-jwt-key-change-this-in-production';
+
+// JWT secret 
+const JWT_SECRET = process.env.JWT_SECRET || 'fallback-secret';
 
 // Initialize database tables
 async function initializeDatabase() {
