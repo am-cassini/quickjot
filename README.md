@@ -1,8 +1,7 @@
 # QuickJot App
-QuickJot App is another web-based app notedpad that we actually used. 
+QuickJot App is a useful web-based notepad application that allows us to save our tasks and to-do lists.
 
 ## Functionalities
-
 1. **Register/Login**: Create an account or log in with existing credentials
 2. **Create Notes**: Use the form at the top to create new notes
 3. **View Notes**: All your notes are displayed in a responsive grid layout
