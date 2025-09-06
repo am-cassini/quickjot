@@ -9,4 +9,4 @@ QuickJot App is another web-based app notedpad that we actually used.
 4. **Edit Notes**: Click on any note to open the edit modal
 5. **Delete Notes**: Use the delete button in the edit modal to remove notes
 
-## For comprehensive examination purposes only (Web Systems and Technology).
+## For comprehensive examination purposes only. (Web Systems and Technology)
