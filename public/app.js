@@ -1,4 +1,4 @@
-class QuickJot {
+class QuickJot { 
     constructor() {
         this.token = localStorage.getItem('token');
         this.user = JSON.parse(localStorage.getItem('user'));
