@@ -2,7 +2,7 @@
   "name": "note-taking-app",
   "version": "1.0.0",
   "description": "A note-taking application with user authentication",
-  "main": "server.js",
+  "main": "server.js", 
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
