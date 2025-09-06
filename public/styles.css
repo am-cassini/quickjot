@@ -127,7 +127,6 @@ body {
 
 .btn-primary:hover {
     background: #2060de;
-    transform: translateY(-2px);
 }
 
 .btn-secondary {
@@ -212,8 +211,6 @@ body {
 
 .note-card:hover {
     border-color: #667eea;
-    transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 .note-card h4 {
